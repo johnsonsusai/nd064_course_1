@@ -5,7 +5,7 @@ app = Flask(__name__)
 def hello():
     return "Hello Worldd!"
 
-@app.route("status")
+@app.route("/status")
 def status():
     value = {
         "user": "admin", "statuscode": "200"
