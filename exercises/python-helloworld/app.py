@@ -6,7 +6,7 @@ def hello():
     return "Hello Worldd!"
 
 @app.route("/status")
-def status():
+#def status():
     value = {
         "user": "admin", "statuscode": "200"
     }
